@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd66fb0056b54c06be92a4c5075db613" Name="Diagram1">
+        <EntityTypeShape EntityType="carrentaldbModel.Cars" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="carrentaldbModel.Payments" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="carrentaldbModel.Rentals" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="carrentaldbModel.Reservations" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="carrentaldbModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="carrentaldbModel.Users" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="carrentaldbModel.FK__Rentals__car_id__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="carrentaldbModel.FK__Reservati__car_i__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="carrentaldbModel.FK__Payments__rental__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="carrentaldbModel.FK__Rentals__user_id__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="carrentaldbModel.FK__Reservati__user___48CFD27E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
