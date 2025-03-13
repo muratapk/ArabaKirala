@@ -16,6 +16,7 @@
         <AssociationConnector Association="carrentaldbModel.FK__Payments__rental__440B1D61" ManuallyRouted="false" />
         <AssociationConnector Association="carrentaldbModel.FK__Rentals__user_id__3F466844" ManuallyRouted="false" />
         <AssociationConnector Association="carrentaldbModel.FK__Reservati__user___48CFD27E" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="carrentaldbModel.Admin" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

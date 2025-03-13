@@ -16,7 +16,7 @@ namespace ArabaKirala
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Kullanici());
+            Application.Run(new AdminGiris());
         }
     }
 }
